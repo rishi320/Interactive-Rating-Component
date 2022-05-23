@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 260px;
+    height: auto;
+    background-color:  hsl(213, 19%, 18%);
+    /* background-color: hsl(216, 12%, 54%); */
+    border-radius: 10px;
+    padding: 40px;
+    
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star, .number, .submit, .heading, .content{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 400;
+    font-size: 15px;
+}
+
+.star, .number{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #465362;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.submit{
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: 2px solid hsl(25, 97%, 53%);
+    margin-top: 20px;
+}
+
+.heading{
+    font-size: 700;
+    font-size: 21px;
+}
+
+.state-end{
+    text-align: center;
+    display: none;
+}
+
+.illustration{
+    margin: 5px;
+}
+
+.selected-rating{
+    width: fit-content;
+    height: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 400;
+    font-size: 10px;
+    color: hsl(25, 97%, 53%);
+    background-color: #465362;
+    border-radius: 15px;
+    margin: auto;
+    padding: 6px 5px 0px 5px;
+}
+.selected-rating > p{
+    width: fit-content;
+    margin: 0;
+}
+
+.content > p:nth-child(1){
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.content > p:nth-child(2){
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
